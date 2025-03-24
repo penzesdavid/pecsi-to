@@ -6,17 +6,25 @@ body{
 header{
     color: #fff;
     text-align: center;
-    height: 150px;
     padding: 10px;
+    margin: auto;
+    
+}
+
+h1{
+    font-weight: bold;
 }
 
 header h1{
     margin-left: 200px;
     margin-right: 200px;
     text-align: center;
-    padding: 30px;
+    padding: 40px;
     background-image: url('splash.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
     border-radius: 20px;
+    
 }
 
 main{
@@ -86,4 +94,30 @@ table, th, td{
 .viz{
     width: 25%;
     float: right;
+    background-position: bottom right;
+}
+
+.linkek{
+    float: left;
+    background-color: rgb(59, 166, 236);
+    color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:  2px 2px 2px #048;
+}
+
+.linkek ul{
+    width: 210px;
+    list-style-image: url('sun.jpg');
+}
+
+.linkek ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.linkek ul li a:hover{
+    color: #000;
+    transition: all 0.5s;
 }
